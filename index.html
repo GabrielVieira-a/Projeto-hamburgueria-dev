@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,7 +41,7 @@
         >
 
         <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-            <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+            <span class="text-white font-medium">Seg à Dom - 18:00 as 22:00</span>
         </div>
         </div>
     </header>
@@ -221,7 +223,7 @@
     <!-- FIM MENU -->
 
     <!-- MODAL CART -->
-        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal" >
 
             <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
                 <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
@@ -252,6 +254,10 @@
             <i class="fa fa-cart-plus text-lg text-white"></i></button>
         </footer>
     <!-- FIM BUTTON CART FOOTER -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script.js"></script>
+
 
     </body>
 </html>
