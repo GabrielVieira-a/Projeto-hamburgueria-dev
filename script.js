@@ -12,6 +12,7 @@ const addressWarn = document.getElementById("address-warn")
 
 let cart = [];
 
+
 // ABRIR O MODAL DO CARRINHO
 cartBtn.addEventListener("click", function() {
     cartModal.style.display = "flex"
@@ -130,6 +131,35 @@ addressInput.addEventListener("input", function(event){
         addressWarn.classList.add("hidden")
     }
 })
+
+// AVISO QUANDO O ITEM FOR ADICIONADO AO CARRINHO
+menu.addEventListener("click", function(event){
+    let apertoubotao = event.target.closest(".add-to-cart-btn")
+
+    if(apertoubotao){
+                Toastify ({
+                text: "ITEM ADICIONADO AO CARRINHO",
+    duration: 2700,
+    close: false,
+  gravity: "top", // `top` or `bottom`
+  position: "right", // `left`, `center` or `right`
+  stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+    background: "#008000",
+    },
+        }).showToast();
+        return;
+    }
+
+
+
+
+
+
+
+})
+
+
 
 // FINALIZAR PEDIDO
 checkoutBtn.addEventListener("click", function(){
