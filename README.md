@@ -24,11 +24,10 @@ Funcionalidades principais:
 ## 🖼️ Capturas de Tela
 
 <p align="center">
-  <img src="<img width="1897" height="858" alt="Captura de tela 2025-10-04 124316" src="https://github.com/user-attachments/assets/f79c62ad-822c-4fe9-85d2-911aba1aa122" />
-" width="45%" />
-  <img src="<img width="1895" height="857" alt="Captura de tela 2025-10-04 124343" src="https://github.com/user-attachments/assets/10329b51-1415-4abf-be79-46524332b1e2" />
-" width="45%" />
+  <img src="./assets/screenshots/home.png" width="45%" />
+  <img src="./assets/screenshots/cart.png" width="45%" />
 </p>
+
 
 ---
 
