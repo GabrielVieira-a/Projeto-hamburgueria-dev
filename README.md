@@ -24,8 +24,8 @@ Funcionalidades principais:
 ## 🖼️ Capturas de Tela
 
 <p align="center">
-  <img src="./assets/screenshots.png" width="45%" />
-  <img src="./assets/screenshots.png" width="45%" />
+  <img src="./assets/screenshots/home.png" width="45%" />
+  <img src="./assets/screenshots/cart.png" width="45%" />
 </p>
 
 
