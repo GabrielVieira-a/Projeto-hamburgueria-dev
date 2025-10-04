@@ -23,7 +23,10 @@ Funcionalidades principais:
 
 ## 🖼️ Capturas de Tela
 
-*(Adicione aqui imagens ou GIFs do projeto rodando para deixar o README mais visual)*
+<p align="center">
+  <img src="./assets/screenshots/home.png" width="45%" />
+  <img src="./assets/screenshots/cart.png" width="45%" />
+</p>
 
 ---
 
