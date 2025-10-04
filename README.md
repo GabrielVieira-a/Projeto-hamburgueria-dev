@@ -1,6 +1,6 @@
 # 🍔 Hamburgueria Dev  
 
-[![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](#)  
+[![Status do Projeto](https://img.shields.io/badge/status-desenvolvido-brightgreen)](#)  
 🔗 [Ver versão online](https://projeto-hamburgueria-dev-beta.vercel.app/)  
 
 Uma aplicação web de hamburgueria fictícia, com foco em **experiência do usuário**, **interface responsiva** e **funcionalidades interativas de carrinho de compras**.  
